@@ -8,7 +8,7 @@ def perform_operation(num1, num2, operation):
         case 'multiply':
             result=num1*num2
         case 'divide':
-            if num1 == 0:
+            if num2 == 0:
                 return("cant divide by zero") 
             else:
                 result=num1/num2
